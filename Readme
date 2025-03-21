@@ -1,1 +1,21 @@
 
+IoT Network Traffic Dataset Combiner
+
+This repository provides a Python script for loading, preprocessing, and combining multiple IoT network traffic datasets, including UNSW-NB15, IoT-23, and IoTID20. The script ensures standardization of feature names, normalization of time-based attributes, and unification of attack labels, making it easier to analyze and train machine learning models on IoT security data.
+Features
+
+✅ Standardizes column names across different datasets
+✅ Converts timestamps into a uniform format (Unix timestamp)
+✅ Handles missing or inconsistent features gracefully
+✅ Supports optional downsampling to balance dataset size
+✅ Merges multiple datasets into a single structured CSV file
+
+Datasets Used
+
+UNSW-NB15
+IoT-23
+IoTID20
+
+License
+
+This project is open-source under the MIT License.
